@@ -1,0 +1,46 @@
+body {
+    background: url('https://t4.ftcdn.net/jpg/06/41/91/85/360_F_641918542_bL3O5qWqKmaVrxM12Qa1pp1owFvKKP3k.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Card styles */
+.weather-card {
+    background: #fff;
+    border: 1px solid #6c757d;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000; /* Ensure text is readable */
+    max-width: 450px; /* Set a maximum width */
+    width: 100%; /* Make the card responsive */
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .weather-card {
+        padding: 10px;
+    }
+
+    .weather-card h2 {
+        font-size: 1.75rem;
+    }
+
+    .weather-card img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .weather-card {
+        padding: 8px;
+    }
+
+    .weather-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .weather-card img {
+        width: 100px;
+    }
+}
